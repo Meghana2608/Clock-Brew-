@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew Clock</title>
+  <link rel="stylesheet" href="coffee.css" />
+</head>
+<body>
+  <header>
+    <h1>☕ Brew Clock</h1>
+    <p>Perfect your brew every time.</p>
+  </header>
+
+  <main class="brew-container">
+    <!-- Espresso -->
+    <section class="brew-card" data-time="30">
+      <img src="C:\Users\HP\OneDrive\Desktop\Web Development\Task4\espresso.webp" alt="Espresso" />
+      <h2>Espresso</h2>
+      <p>Strong and quick — 30 seconds of perfection.</p>
+      <button class="start-btn">Start Timer</button>
+      <button class="pause-btn" disabled>Pause</button>
+      <div class="timer">00:30</div>
+      <div class="progress-bar"><div class="progress"></div></div>
+    </section>
+
+    <!-- French Press -->
+    <section class="brew-card" data-time="240">
+      <img src="C:\Users\HP\OneDrive\Desktop\Web Development\Task4\French Press.webp" alt="French Press" />
+      <h2>French Press</h2>
+      <p>Rich and smooth — steep for 4 minutes.</p>
+      <button class="start-btn">Start Timer</button>
+      <button class="pause-btn" disabled>Pause</button>
+      <div class="timer">04:00</div>
+      <div class="progress-bar"><div class="progress"></div></div>
+    </section>
+
+    <!-- Pour Over -->
+    <section class="brew-card" data-time="180">
+      <img src="C:\Users\HP\OneDrive\Desktop\Web Development\Task4\Pour Over Coffee.webp" alt="Pour Over" />
+      <h2>Pour Over</h2>
+      <p>Clean and balanced — brew for 3 minutes.</p>
+      <button class="start-btn">Start Timer</button>
+      <button class="pause-btn" disabled>Pause</button>
+      <div class="timer">03:00</div>
+      <div class="progress-bar"><div class="progress"></div></div>
+    </section>
+
+    <!-- Cold Brew -->
+    <section class="brew-card" data-time="43200">
+      <img src="C:\Users\HP\OneDrive\Desktop\Web Development\Task4\Cold Brew.webp" alt="Cold Brew" />
+      <h2>Cold Brew</h2>
+      <p>Slow and bold — steep for 12 hours.</p>
+      <button class="start-btn">Start Timer</button>
+      <button class="pause-btn" disabled>Pause</button>
+      <div class="timer">12:00:00</div>
+      <div class="progress-bar"><div class="progress"></div></div>
+    </section>
+  </main>
+
+  <script src="coffee.js"></script>
+</body>
+</html>
